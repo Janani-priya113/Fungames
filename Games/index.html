@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Hub</title>
+    <link rel="stylesheet" href="game styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Game Hub</h1>
+        <p>Select a game to play!</p>
+    </header>
+
+    <table>
+        <caption><strong>Game Selection</strong></caption>
+        <thead>
+            <tr>
+                <th>Game</th>
+                <th>Description</th>
+                <th>Play</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rock Paper Scissors</td>
+                <td>Classic hand game vs the computer</td>
+                <td><a href="rps.html">Play Now</a></td>
+            </tr>
+            <tr>
+                <td>Number Guessing</td>
+                <td>Guess a number between 1 and 100</td>
+                <td><a href="guess.html">Play Now</a></td>
+            </tr>
+            <tr>
+                <td>Dice Roll</td>
+                <td>Roll a dice and beat the computer</td>
+                <td><a href="dice.html">Play Now</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table id="scoreTable">
+        <caption><strong>Scoreboard</strong></caption>
+        <thead>
+            <tr>
+                <th>Player</th>
+                <th>Game</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="games.js"></script>
+</body>
+</html>
